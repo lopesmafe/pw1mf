@@ -1,5 +1,64 @@
-#contato {
-  background-color: lightcoral;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin: 10px;
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#tudo {
+  background: rgb(244, 227, 252);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#cabecalho{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(163, 43, 173);
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+#menu{
+ width: 50%;
+ height: 100%;
+ float: right;
+}
+
+#menu table{
+  margin: 0 auto;
+  margin-right: 5px;
+  height: 100%;
+}
+
+#menu table td{
+  padding: 10px;
+}
+
+#menu a{
+  text-decoration: none;
+  color: purple;
+
+}
+
+#rodape{
+  background-color: purple;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  position: relative;
+  width: 100%;
+  height: 5%;
+}
+
+
+#conteudo{
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 130%;
+  padding-top: 5px;
+  font-size: 20;
+}
+
+
+#artistas{
+  font-weight: bolt;
 }
